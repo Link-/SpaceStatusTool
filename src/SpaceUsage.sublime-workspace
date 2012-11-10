@@ -1,0 +1,246 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hero",
+				"hero-unit"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"anim",
+				"animBalls"
+			],
+			[
+				"add",
+				"Add"
+			],
+			[
+				"vi",
+				"vizCanvas"
+			],
+			[
+				"au",
+				"audio"
+			],
+			[
+				"cont",
+				"context"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 265.0,
+		"selected_items":
+		[
+			[
+				"package i",
+				"Package Control: List Packages"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"git ",
+				"Git: Gui"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 237.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/FBCrawler/index.php",
+		"/C/wamp/www/FBCrawler/src/fb.crawler.php",
+		"/C/wamp/www/FBCrawler/README.md",
+		"/C/wamp/www/FBCrawler/phpsdk/examples/example.php",
+		"/C/wamp/www/FBCrawler/phpsdk/composer.json",
+		"/C/Users/BassemDy/Desktop/WolframAlpha--facebook_report__Friend_network__Clusters2012_10_22_0912.nb",
+		"/C/Users/BassemDy/Desktop/WolframAlpha--facebook_report__Input_interpretation__2012_10_22_0910.m",
+		"/C/Users/BassemDy/Desktop/New Text Document.txt",
+		"/C/Users/BassemDy/Desktop/tst.csv",
+		"/C/wamp/www/FirewallEvader/index.php",
+		"/C/wamp/www/FirewallEvader/vm-pxy.php",
+		"/C/wamp/www/FirewallEvader/utube-proxy.php",
+		"/C/Users/BassemDy/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/wamp/www/MinimJS/index.html",
+		"/C/wamp/www/ProcessingCanvas/ps-live-index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" \n",
+			" {",
+			"\\r\\n {",
+			" {",
+			", \"",
+			", ",
+			", \"",
+			"\");",
+			"_RegionFilterData.Add(",
+			"_KadaaFilterData.Add(",
+			"_TypeFilterData.Add(",
+			">",
+			"js",
+			"line",
+			"delete",
+			"canvas",
+			"console.log",
+			"rafCallback",
+			"audio",
+			"window.audio"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\n\\r {",
+			"\\n\\r{",
+			"\\r\\n{",
+			", ",
+			" ",
+			"",
+			"navbar"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 63.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"example",
+				"phpsdk/examples/example.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true
+}

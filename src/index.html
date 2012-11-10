@@ -1,0 +1,65 @@
+<!doctype html>
+<!-- Conditional comment for mobile ie7 blogs.msdn.com/b/iemobile/ -->
+<!--[if IEMobile 7 ]>    <html class="no-js iem7" lang="en"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+
+  <title>LambaLabs - Space Status tool</title>
+  <meta name="description" content="Lamba Labs is a Beirut hackerspace and a community collective between hardware/software developers, tinkerers, makers, artists, people who like to build stuff.">
+
+  <!-- Mobile viewport optimization h5bp.com/ad -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width">
+ 
+  <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+  <meta http-equiv="cleartype" content="on">
+
+  <!-- more tags for your 'head' to consider h5bp.com/d/head-Tips -->
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <div class="socialmedia">
+      <a class="sprites socialicon twittericon" target="_blank" href="https://twitter.com/LambaLabs" title="Twitter"></a>
+      <a class="sprites socialicon facebookicon" target="_blank" href="https://www.facebook.com/LambaLabs" title="Facebook"></a>
+    </div>
+
+    <div class="lambaheader">
+      <a class="sprites logo" href="http://lambalabs.org" target="_blank" title="LambaLabs"></a>
+    </div>
+
+    <div class="status-wrap">
+      <a class="sprites lambaicon off" href="javascript:;" title="Space Status"></a>
+      <p class="status-text">Updating Status...</p>
+    </div>
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/libs/cosmjs-1.0.0.min.js"></script>
+  <script src="js/helper.js"></script>
+  <!-- end scripts-->
+
+  <!-- Core Scripts -->
+  <script src="js/script.js"></script>
+
+  </script>
+
+</body>
+</html>
