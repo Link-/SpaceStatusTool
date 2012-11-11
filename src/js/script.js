@@ -58,7 +58,7 @@
     function timer()
     {
       c--;
-      $(".status-text").html('Updating Status in ' + c);
+      $(".status-text").html('Fetching Status in ' + c);
       if (c < 1)
       {
         $(".status-text").html('...');
