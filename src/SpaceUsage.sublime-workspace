@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"backg",
+				"background-position"
+			],
+			[
 				"hero",
 				"hero-unit"
 			],
@@ -92,6 +96,10 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/LambaLabs/SpaceUsage/src/js/script.js",
+		"/C/wamp/www/LambaLabs/SpaceUsage/src/css/style.css",
+		"/C/wamp/www/LambaLabs/SpaceUsage/src/index.html",
+		"/C/Users/God/AppData/Roaming/Sublime Text 2/Packages/User/Gist.sublime-settings",
 		"/C/wamp/www/FBCrawler/index.php",
 		"/C/wamp/www/FBCrawler/src/fb.crawler.php",
 		"/C/wamp/www/FBCrawler/README.md",
@@ -124,6 +132,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
 			" \n",
 			" {",
 			"\\r\\n {",
