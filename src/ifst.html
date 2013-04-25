@@ -1,0 +1,60 @@
+<!doctype html>
+<!-- Conditional comment for mobile ie7 blogs.msdn.com/b/iemobile/ -->
+<!--[if IEMobile 7 ]>    <html class="no-js iem7" lang="en"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+
+  <title>LambaLabs - Space Status tool</title>
+  <meta name="description" content="Lamba Labs is a Beirut hackerspace and a community collective between hardware/software developers, tinkerers, makers, artists, people who like to build stuff.">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style-iframe.css?v=2">
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <a class="sprites lambaicon off" href="javascript:location.reload();" title="Space Status"></a>
+    <p class="status-text">Fetching Status. Please wait..</p>
+  </div> <!--! end of #container -->
+
+  <audio id="sfxClip">
+    <source src="media/sfx.mp3"></source>
+  </audio>
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js"><\/script>')</script>
+
+  <!-- Core Scripts -->
+  <script src="js/script.js?v=1"></script>
+  <script type="text/javascript">
+
+    $(document).ready(function()
+    {
+      var ct = setInterval(timer, 1000);
+      var c = 3;
+
+      function timer()
+      {
+        c--;
+        $(".status-text").html('Fetching Status in ' + c);
+        if (c < 1)
+        {
+          $(".status-text").html('...');
+          clearInterval(ct);
+          $.fn.GetLambaStatus();
+        }
+      }
+    });
+    
+  </script>
+</body>
+</html>

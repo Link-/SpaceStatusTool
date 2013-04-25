@@ -25,7 +25,7 @@
                   c++;
 
                   if (c == delays.length)
-                    $(".status-text").html('The space is open, join us!');
+                    $(".status-text").html('The space is <strong>OPEN</strong>, join us!');
               }, delays[i]);
           }
       };
@@ -46,7 +46,7 @@
                     if ( argErr.length > 0 )
                       $(".status-text").html(argErr);
                     else
-                      $(".status-text").html('The space is closed, try again later :(');
+                      $(".status-text").html('The space is <strong>CLOSED</strong>, try again later :(');
               }, delays[i]);
           }
       };
@@ -83,26 +83,27 @@
           {
               console.log( 'Failed to connect to the source.' )
               // log the error to the console
-              $.fn.TurnOffTheLamba('Failed to retrieve status. Try again in a moment.');
+              $.fn.TurnOffTheLamba('<strong>Failed</strong>. Try again in a moment.');
           });
 
         }
   })( jQuery );
 
-  $(document).ready(function()
-  {
-    var ct = setInterval(timer, 1000);
-    var c = 3;
 
-    function timer()
+  $(document).ready(function()
     {
-      c--;
-      $(".status-text").html('Fetching Status in ' + c);
-      if (c < 1)
+      var ct = setInterval(timer, 1000);
+      var c = 3;
+
+      function timer()
       {
-        $(".status-text").html('...');
-        clearInterval(ct);
-        $.fn.GetLambaStatus();
+        c--;
+        $(".status-text").html('Fetching Status in ' + c);
+        if (c < 1)
+        {
+          $(".status-text").html('...');
+          clearInterval(ct);
+          $.fn.GetLambaStatus();
+        }
       }
-    }
-  });
+    });
