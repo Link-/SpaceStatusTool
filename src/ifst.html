@@ -35,26 +35,5 @@
 
   <!-- Core Scripts -->
   <script src="js/script.js?v=1"></script>
-  <script type="text/javascript">
-
-    $(document).ready(function()
-    {
-      var ct = setInterval(timer, 1000);
-      var c = 3;
-
-      function timer()
-      {
-        c--;
-        $(".status-text").html('Fetching Status in ' + c);
-        if (c < 1)
-        {
-          $(".status-text").html('...');
-          clearInterval(ct);
-          $.fn.GetLambaStatus();
-        }
-      }
-    });
-    
-  </script>
 </body>
 </html>
