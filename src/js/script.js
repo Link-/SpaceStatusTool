@@ -31,7 +31,7 @@
       };
 
       // Turn off the lamba
-      $.fn.TurnOffTheLamba = function()
+      $.fn.TurnOffTheLamba = function(argErr)
       {
           var delays = [100, 200, 300, 400, 500, 600, 700, 800];
           var c = 0;
@@ -43,17 +43,56 @@
                   c++;
 
                   if (c == delays.length)
-                    $(".status-text").html('The space is closed, try again later :(');
+                    if ( argErr.length > 0 )
+                      $(".status-text").html(argErr);
+                    else
+                      $(".status-text").html('The space is closed, try again later :(');
               }, delays[i]);
           }
       };
 
+      // Fetch the current LLBH Status
+      $.fn.GetLambaStatus = function()
+      {
+          console.log( 'Request status...' );
+
+          // Getting the lamba status
+          var request = $.ajax({
+              url: "status.php",
+              cache: false,
+              dataType: "json"
+          });
+
+          // callback handler that will be called on success
+          request.done(function (response, textStatus, jqXHR)
+          {
+            if ( response )
+            {
+              console.log( 'Success.' );
+
+              // Lamba is open
+              if ( response.cv == 1 )
+                $.fn.TurnOnTheLamba();
+              else
+                $.fn.TurnOffTheLamba();
+            }
+          });
+
+          // callback handler that will be called on failure
+          request.fail(function (jqXHR, textStatus, errorThrown)
+          {
+              console.log( 'Failed to connect to the source.' )
+              // log the error to the console
+              $.fn.TurnOffTheLamba('Failed to retrieve status. Try again in a moment.');
+          });
+
+        }
   })( jQuery );
 
   $(document).ready(function()
   {
     var ct = setInterval(timer, 1000);
-    var c = 8;
+    var c = 3;
 
     function timer()
     {
@@ -63,7 +102,7 @@
       {
         $(".status-text").html('...');
         clearInterval(ct);
-        $.fn.TurnOffTheLamba();
+        $.fn.GetLambaStatus();
       }
     }
   });

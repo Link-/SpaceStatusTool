@@ -206,7 +206,7 @@ td { vertical-align: top; }
 
 
 body { background-color: #2a2b2f; }
-#container { width: 960px; margin: 0 auto; height: 100%; background: transparent url(../img/background-light.png) no-repeat; }
+#container { width: 640px; margin: 0 auto; height: 100%; background: transparent url(../img/background-light.png) no-repeat; }
 
 #container .sprites { background: transparent url(../img/sprites.png) no-repeat; }
 #container .socialmedia { width: 100%; height: 54px; float: left; /** /border: 1px solid #FFF;/**/ }
@@ -221,8 +221,8 @@ body { background-color: #2a2b2f; }
 #container .status-wrap .lambaicon { width: 399px; height: 322px; margin: 0 auto; display: block; }
 #container .status-wrap .off { background-position: -13px -110px; }
 #container .status-wrap .on { background-position: -403px -110px; }
-#container .status-wrap .status-text { float: right; width: auto; font-family: Helvetica, Verdana; font-size: 18pt; color: #FFF; text-align: right; margin: 0 100px 0 0; text-shadow: 2px 2px 1px #000; }
-#container .status-wrap .recheckbtn { float: right; width: 124px; height: 52px; margin: 10px 407px 0 0; clear: both; display: block; background-position: -357px 0px; }
+#container .status-wrap .status-text { width: 100%; font-family: Helvetica, Verdana; font-size: 18pt; color: #FFF; text-align: center; margin: 0 0; text-shadow: 2px 2px 1px #000; }
+#container .status-wrap .recheckbtn { width: 124px; height: 52px; margin: 0 auto; clear: both; display: block; background-position: -357px 0px; }
 #container .status-wrap .recheckbtn:hover { background-position: -486px 0px; }
 
 
