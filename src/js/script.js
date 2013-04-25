@@ -43,7 +43,7 @@
                   c++;
 
                   if (c == delays.length)
-                    if ( argErr.length > 0 )
+                    if ( argErr )
                       $(".status-text").html(argErr);
                     else
                       $(".status-text").html('The space is <strong>CLOSED</strong>, try again later :(');

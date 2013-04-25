@@ -14,6 +14,8 @@ $jsonResult = json_decode( $cosmFeed->getFeed("json", FEEDID) );
 // Get the current value and format output result
 $currentValue = $jsonResult->datastreams[0]->current_value;
 
+// print_r( $jsonResult );
+
 // Output the result
 header( 'Content-Type: application/json' );
 echo json_encode( array( "cv" => $currentValue ) );
