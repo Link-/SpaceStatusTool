@@ -8,3 +8,10 @@ The Space Status Tool is an arduino project that indicates if a given space (roo
 The web interface integrates Cosm's (https://cosm.com) javascript library that aggregates a data from the presence indicator module.
 
 This project's code is open for all purposes, however the artwork (including logo and the page's design) are still prioriotary to Lamba Labs, its members, and myself.
+
+Deployment
+==========
+
+The tool has currently been deployed fully and you can check it at: http://status.lambalabs.org/
+
+We will be updating this repository with fixes and more features as needed. We will be documenting the hardware build process.
