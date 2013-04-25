@@ -9,7 +9,7 @@ The web interface integrates Cosm's (https://cosm.com) javascript library that a
 
 This project's code is open for all purposes, however the artwork (including logo and the page's design) are still prioriotary to Lamba Labs, its members, and myself.
 
-Deployment
+In Action
 ==========
 
 The tool has currently been deployed fully and you can check it at: http://status.lambalabs.org/
