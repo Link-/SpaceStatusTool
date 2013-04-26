@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"current",
-				"currentValue"
+				"json",
+				"jsonData"
 			],
 			[
-				"json",
-				"jsonResult"
+				"getFee",
+				"getFeedsList"
+			],
+			[
+				"current",
+				"currentValue"
 			],
 			[
 				"backg",
@@ -104,13 +108,16 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/LambaLabs/SpaceUsage/src/index.html",
+		"/C/wamp/www/LambaLabs/SpaceUsage/src/status.php",
+		"/C/wamp/www/LambaLabs/SpaceUsage/src/public.php",
+		"/C/wamp/www/LambaLabs/SpaceUsage/src/arduino/README.md",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/js/script.js",
+		"/C/wamp/www/LambaLabs/SpaceUsage/src/index.html",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/ifst.html",
+		"/C/wamp/www/LambaLabs/SpaceUsage/src/libs/PachubeAPI.php",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/css/style-iframe.css",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/css/style.css",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/js/script-iframe.js",
-		"/C/wamp/www/LambaLabs/SpaceUsage/src/status.php",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/libs/index.php",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/js/plugins.js",
 		"/C/Users/God/AppData/Roaming/Sublime Text 2/Packages/User/Gist.sublime-settings",
@@ -146,6 +153,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pachube",
 			">\n",
 			" \n",
 			" {",
