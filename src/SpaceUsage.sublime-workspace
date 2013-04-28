@@ -55,7 +55,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 265.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -91,7 +91,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 424.0
+		"width": 568.0
 	},
 	"console":
 	{
@@ -108,12 +108,17 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/LambaLabs/_Tools/SpaceUsage/src/js/script.js",
+		"/C/wamp/www/LambaLabs/_Tools/SpaceUsage/src/index.html",
+		"/C/wamp/www/LambaLabs/_Tools/SpaceUsage/src/ifst.html",
+		"/C/wamp/www/LambaLabs/_Tools/SpaceUsage/src/public.php",
+		"/C/wamp/www/LambaLabs/_Tools/SpaceUsage/src/status.php",
+		"/C/wamp/www/LambaLabs/SpaceUsage/src/ifst.html",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/status.php",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/public.php",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/arduino/README.md",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/js/script.js",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/index.html",
-		"/C/wamp/www/LambaLabs/SpaceUsage/src/ifst.html",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/libs/PachubeAPI.php",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/css/style-iframe.css",
 		"/C/wamp/www/LambaLabs/SpaceUsage/src/css/style.css",
@@ -153,6 +158,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"audio",
 			"pachube",
 			">\n",
 			" \n",

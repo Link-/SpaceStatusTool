@@ -8,8 +8,6 @@
    */
   (function( $ ) {
       
-      var audioClip = $("#sfxClip")[0];
-
       // Turn on the lamba
       $.fn.TurnOnTheLamba = function()
       {
@@ -20,7 +18,6 @@
           for (var i = 0; i < delays.length; i++)
           {
               setTimeout(function () {
-                  audioClip.play();
                   $(".lambaicon").toggleClass('on');
                   c++;
 
@@ -38,7 +35,6 @@
           for (var i = 0; i < delays.length; i++)
           {
               setTimeout(function () {
-                  audioClip.play();
                   $(".lambaicon").toggleClass('on');
                   c++;
 
