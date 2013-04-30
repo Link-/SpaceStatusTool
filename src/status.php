@@ -53,7 +53,7 @@ if ( isset( $_GET['q'] ) && !empty( $_GET['q'] ) )
 			// Fix the time formatting
 			foreach( $datapoints as &$dp )
 			{	
-				$dp->at = date( "Y-m-d G:i:s", strtotime( $dp->at ) );
+				$dp->at = date( "c", strtotime( $dp->at ) );
 			}
 
 			header( 'Content-Type: application/json' );

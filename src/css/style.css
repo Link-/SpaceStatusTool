@@ -204,28 +204,37 @@ td { vertical-align: top; }
    Website: http://bassemdy.com
    ========================================================================== */
 
+.clear60
+{
+  clear: both;
+  height: 60px;
+}
 
 body { background-color: #2a2b2f; }
-#container { width: 640px; margin: 0 auto; height: 100%; background: transparent url(../img/background-light.png) no-repeat; }
+#container { width: 640px; margin: 0 auto; height: auto; background: transparent url(../img/background-light.png) no-repeat; }
 
-#container .sprites { background: transparent url(../img/sprites.png) no-repeat; }
+#container .sprites { background: transparent url(../img/sprites.png?v=1) no-repeat; }
 #container .socialmedia { width: 100%; height: 54px; float: left; /** /border: 1px solid #FFF;/**/ }
 #container .socialmedia .socialicon { float: right; width: 40px; height: 40px; margin: 10px 5px 10px 0px; /** /border: 1px solid #FFF;/**/ }
 #container .socialmedia .twittericon { background-position: -295px -5px; }
 #container .socialmedia .facebookicon { background-position: -239px -5px; }
 
 #container .lambaheader { float: left; width: 100%; height: 100px; text-align: center; /** /border: 1px solid #FFF;/**/ }
-#container .lambaheader .logo { width: 240px; height: 100px; margin: 0 auto; display: block; background-position: 0px 0px; }
+#container .lambaheader .logo { width: 240px; height: 100px; margin: 0 auto; display: block; background-position: 0px 0px; border: 0; outline: 0; }
 
 #container .status-wrap { float: left; width: 100%; height: 450px; text-align: center; /** /border: 1px solid #FFF;/**/ }
 #container .status-wrap .lambaicon { width: 399px; height: 322px; margin: 0 auto; display: block; }
 #container .status-wrap .off { background-position: -13px -110px; }
 #container .status-wrap .on { background-position: -403px -110px; }
 #container .status-wrap .status-text { width: 100%; font-family: Helvetica, Verdana; font-size: 18pt; color: #FFF; text-align: center; margin: 0 0; text-shadow: 2px 2px 1px #000; }
-#container .status-wrap .recheckbtn { width: 124px; height: 52px; margin: 0 auto; clear: both; display: block; background-position: -357px 0px; }
-#container .status-wrap .recheckbtn:hover { background-position: -486px 0px; }
 
-#container .status-log { float: left; width: 100%; height: auto; }
+#container .status-wrap .action-buttons { width: 250px; height: 52px; margin: 0 auto; text-align: center; }
+#container .status-wrap .action-buttons .recheckbtn { float: left; width: 124px; height: 52px; display: block; background-position: -357px 1px; border: 0; outline: 0; }
+#container .status-wrap .action-buttons .recheckbtn:hover { background-position: -486px 1px; }
+#container .status-wrap .action-buttons .logsbtn { float: left; width: 124px; height: 52px; display: block; background-position: -357px -43px; border: 0; outline: 0; }
+#container .status-wrap .action-buttons .logsbtn:hover { background-position: -486px -43px; }
+
+#status-logs { width: 960px; height: auto; margin: 0 auto; clear: both; }
 
 
 /*

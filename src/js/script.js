@@ -81,7 +81,7 @@
           {
               console.log( 'Failed to connect to the source.' )
               // log the error to the console
-              $.fn.TurnOffTheLamba('<strong>Failed</strong>. Try again in a moment.');
+              $.fn.TurnOffTheLamba('<strong>Failed</strong>. Try again.');
           });
 
         }
@@ -89,8 +89,9 @@
 
         // General purpose function to plot the status log
         // chart
-        $.fn.PlotLogStatusChart = function()
+        $.fn.PlotLogStatusCharts = function()
         {
+
           // This is for all plots, change Date axis to local timezone
           Highcharts.setOptions({
               global : {
@@ -105,9 +106,10 @@
               newData = [];
               $.each(jsonData.log, function(key, value) 
               {
-                newData.push( [ new Date( Date.parse(value.at) ).getTime(), parseInt(value.value) ] );
+                newData.push( [ moment( value.at ).valueOf(), parseInt(value.value) ] );
               });
 
+              console.log( newData );
 
               // Plot the chart
               $('#status-log-chart').highcharts({
@@ -183,7 +185,4 @@
         $.fn.GetLambaStatus();
       }
     }
-
-    // Plot the chart
-    $.fn.PlotLogStatusChart();
   });
