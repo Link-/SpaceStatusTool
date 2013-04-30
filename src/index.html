@@ -23,7 +23,7 @@
   <!-- more tags for your 'head' to consider h5bp.com/d/head-Tips -->
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/style.css?v=5">
 
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
@@ -56,8 +56,10 @@
       <p class="status-text">Fetching Status. Please wait..</p>
       <a class="sprites recheckbtn" href="javascript:location.reload();" title="Recheck Status"></a>
     </div>
-
-    <div class="status-log"></div>
+  
+    <div id="status-log-chart" class="status-log">
+      
+    </div>
   </div> <!--! end of #container -->
 
 
@@ -68,6 +70,10 @@
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js"><\/script>')</script>
 
   <!-- Core Scripts -->
-  <script src="js/script.js?v=6"></script>
+  <script src="js/libs/highcharts.js"></script>
+  <script src="js/libs/exporting.js"></script>
+  <script src="js/libs/dark-green.js"></script>
+  <script src="js/script.js?v=8"></script>
+
 </body>
 </html>

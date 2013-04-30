@@ -15,10 +15,10 @@
 	$cosmFeed = new PachubeAPI(COSMAPIKEY);
 
 	// Get the feed
-	$jsonResult = json_decode( $cosmFeed->getFeed("json", FEEDID) );
+	$jsonResult = json_decode( $cosmFeed->getDatastream('json', FEEDID, 'sensor_reading') );
 
 	// Get the current value and format output result
-	$currentValue = $jsonResult->datastreams[0]->current_value;
+	$currentValue = $jsonResult->current_value;
 
 	$spaceStatus = ( $currentValue == "1.00" ) ? true : false;
 
