@@ -1,3 +1,12 @@
+/**
+ * Space Status Tool - Arduino module
+ * @author: Bassem Dghaidy & Bassam Jalgha
+ * @version: 1.02
+ *
+ * @notes: The code is still in its early stages
+ * and some refactoring is to be done. 
+ */
+
 #include <SPI.h>
 #include <Ethernet.h>
 #include <HttpClient.h>
