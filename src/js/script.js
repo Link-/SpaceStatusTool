@@ -95,7 +95,7 @@
           // This is for all plots, change Date axis to local timezone
           Highcharts.setOptions({
               global : {
-                  useUTC : true
+                  useUTC : false
               }
           });
 
