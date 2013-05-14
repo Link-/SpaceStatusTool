@@ -11,8 +11,6 @@ $cosmFeed = new PachubeAPI(COSMAPIKEY);
 // fixed.
 if ( isset( $_GET['q'] ) && !empty( $_GET['q'] ) )
 {
-
-
 	switch( $_GET['q'] )
 	{
 		// This is a grab current value call
