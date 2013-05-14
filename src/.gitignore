@@ -43,3 +43,4 @@ build/buildinfo.properties
 build/config/buildinfo.properties
 
 # Configuration
+config.php
