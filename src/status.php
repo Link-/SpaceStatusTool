@@ -1,9 +1,7 @@
 <?php
 
 include('libs/PachubeAPI.php');
-
-define( "COSMAPIKEY", "60quPHrNGggy6peIYZzU12kcE7WSAKwwcTM4R1pCcGF6Zz0g" );
-define( "FEEDID", 127436 );
+include('config.php');
 
 // Define & Init the Object
 $cosmFeed = new PachubeAPI(COSMAPIKEY);
